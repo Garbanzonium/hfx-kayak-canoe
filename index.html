@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HFX Canoe and Kayak</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Martel+Sans&display=swap');
+    </style>
+    <link rel="icon" type="image/png" href="images/favicon.ico">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div id="nav-menu">
+                <button id="nav-button" type="button">
+                    <img src="images/hamburger.png" alt="hamburger image" type="button">
+                </button>
+                <h1>Halifax Canoe and Kayak</h1>
+                <img src="images/paddle-white.png" alt="crossed paddles" class="logo">
+            
+                <ul id="panel">
+                    <hr>
+                    <li><a href="#" class="siteNav">Home</a></li>
+                    <hr>
+                    <li><a href="#" class="siteNav">Book Trip</a></li>
+                    <hr>
+                    <li><a href="#" class="siteNav">Admin Login</a></li>
+                </ul>
+            </div>
+        </nav>    
+    </header>
+    <div>
+        <div class="canoeImage">
+            <img src="images/canoe.jpg" class="lakey" alt="Canoe on serene still lake">
+            <h2 class="slogan">Come Experience <br>Canada</h2>
+        </div>
+        <br>
+        <article id="upcomingAdventures">
+            <h2>Upcoming Adventures</h2>
+            <br>
+            <h2><u>Halifax</u></h2>
+                <p>Date: 05-09-2022</p>
+                <p>Duration: 3 days</p>
+            <br>
+            <h3><u>Summary</u>:</h3>
+            <p>I'm normally not a praying man, but if you're up there, please save me, Superman. Uh, no, you got the wrong number. This is 9-1…2. Remember the time he ate my goldfish? And you lied and said I never had goldfish. Then why did I have the bowl, Bart? *Why did I have the bowl?*
+                I prefer a vehicle that doesn't hurt Mother Earth. It's a go-cart, powered by my own sense of self-satisfaction. Kids, kids. I'm not going to die. That only happens to bad people. Fire can be our friend; whether it's toasting marshmallows or raining down on Charlie.</p>
+            <br>
+            <h2><u>Sydney</u></h2>
+                <p>Date: 22-09-2022</p>
+                <p>Duration: 5 days</p>
+            <br>
+            <h3><u>Summary</u>:</h3>
+            <p>I'll be back. You can't keep the Democrats out of the White House forever, and when they get in, I'm back on the streets, with all my criminal buddies. I'm a Spalding Gray in a Rick Dees world. That's why I love elementary school, Edna. The children believe anything you tell them.
+                I'm allergic to bee stings. They cause me to, uh, die. Last night's "Itchy and Scratchy Show" was, without a doubt, the worst episode *ever.* Rest assured, I was on the Internet within minutes, registering my disgust throughout the world.</p>
+        </article>
+    </div>
+    <br><br>
+    <footer class="footer">
+        
+        <p class="footyA">&copy Halifax Canoe and Kayak</p> 
+        <a class="footyB" href="#">Contact Us</a>
+        <p class="footyC">Est. 1998</p>
+    </footer>
+<script>
+
+    $(document).ready(function(){
+        $('#nav-button').click(function(){
+            $('#panel').slideToggle(1000);
+        })
+    })
+    
+</script>
+
+</body>
+
+</html>
